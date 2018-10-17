@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>    
+<filter displayname="Filter by" multiple="no">    
+<group displayname="New Group" name="">
+<condition name="Others" value="Print" displayname="Print" default="no"></condition>
+<condition name="Others" value="Online" displayname="Online" default="no"></condition></group>
+<group displayname="New Group 1" name="">
+<condition name="Others" value="NEWTAG2" displayname="NEWTAG2" default="no"></condition>
+<condition name="Others" value="NEWTAG1" displayname="NEWTAG1" default="no"></condition></group></filter>

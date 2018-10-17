@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preset>
+  <content>
+    <index type="boolean">true</index>
+    <toc>
+      <path>../../toc/features.toc</path>
+      <name>features</name>
+    </toc>
+    <glossary>
+      <path>../../glossary/features.glo</path>
+      <name>features</name>
+    </glossary>
+    <masterpage></masterpage>
+    <brs type="array"></brs>
+    <mapFiles type="array"></mapFiles>
+  </content>
+  <outputPath>C:/Users/nitika/Documents/My RoboHelp Projects/outputs/features/Microsoft_HTML_Help</outputPath>
+  <starterPage>features.chm</starterPage>
+  <search>
+    <context type="boolean">false</context>
+    <contextLimit></contextLimit>
+  </search>
+  <sitemap>
+    <use type="boolean">false</use>
+    <changeFrequency></changeFrequency>
+    <helpBaseURL></helpBaseURL>
+  </sitemap>
+  <name>Microsoft HTML Help</name>
+  <type>chm</type>
+  <title>features</title>
+  <defaultTopic>
+    <name>First_Topic.htm</name>
+    <path>../../contents/First_Topic.htm</path>
+  </defaultTopic>
+</preset>

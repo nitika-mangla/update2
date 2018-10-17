@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<val>
+  <prop att="Others" val="NEWTAG1" backcolor="#0000ff"></prop>
+  <prop att="Others" val="NEWTAG2" backcolor="#800000"></prop>
+  <prop att="Others" val="Online" backcolor="#00ff00"></prop>
+  <prop att="Others" val="Print" backcolor="#ff0000"></prop>
+</val>

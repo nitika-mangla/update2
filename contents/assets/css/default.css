@@ -1,0 +1,362 @@
+/*Created with Adobe RoboHelp 2017.*/
+body {
+	font-family: Arial;
+	background-color: #ffffff;
+	counter-reset: rl-h1item1 rl-pitem1   ;
+}
+h1 {
+	font-weight: bold;
+	font-size: 24.0pt;
+	list-style: rh-list;
+	color: #008000;
+}
+h2 {
+	font-weight: bold;
+	font-size: 18.0pt;
+}
+h3 {
+	font-weight: bold;
+	font-size: 14.0pt;
+}
+h4 {
+	font-weight: bold;
+	font-size: 12.0pt;
+}
+h5 {
+	font-weight: bold;
+	font-size: 10.0pt;
+}
+h6 {
+	font-weight: bold;
+	font-size: 8.0pt;
+}
+p {
+	font-size: 12.0pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	list-style: rh-list;
+	color: #800000;
+}
+a.expandspot {
+	cursor: hand;
+	font-style: italic;
+	display: inline;
+	font-family: "Berlin Sans FB";
+	font-size: 14pt;
+	color: #800000;
+	background-color: #ffff00;
+	text-decoration: none;
+}
+span.expandtext {
+	font-style: italic;
+	font-weight: normal;
+	color: #ff0000;
+}
+a.dropspot {
+	cursor: hand;
+	font-style: italic;
+	font-family: Candara;
+	display: inline;
+	color: #ff00ff;
+	text-decoration: none;
+}
+a.glossterm {
+	color: #800000;
+	cursor: hand;
+	font-style: italic;
+	text-decoration: none;
+}
+span.glosstext {
+	font-style: italic;
+	font-weight: normal;
+	color: #0000ff;
+}
+ol,
+ul {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+li.Style1 {
+	list-style: url(../images/red_circle_4.png);
+}
+rh-seq.Mine {
+	x-count: 10;
+	x-1: One;
+	x-2: Two;
+	x-3: Three;
+	x-4: Four;
+	x-5: Five;
+	x-6: Six;
+	x-7: Seven;
+	x-8: Eight;
+	x-9: Nine;
+	x-10: Ten;
+}
+ol.rl-h1 ol {
+	counter-reset: rl-h1item;
+	list-style-type: none;
+}
+ol.rl-h1 ol>li:before {
+	counter-increment: rl-h1item;
+	content: counter(rl-h1item, decimal)":";
+}
+ol.rl-h1 {
+	counter-reset: rl-h1item1;
+	list-style-type: none;
+}
+ol.rl-h1>li:before {
+	counter-increment: rl-h1item1;
+	content: counter(rl-h1item1, upper-alpha)".";
+}
+ol.rl-p ol {
+	counter-reset: rl-pitem;
+	list-style-type: none;
+}
+ol.rl-p ol>li:before {
+	counter-increment: rl-pitem;
+	content: counter(rl-pitem, decimal)":";
+}
+ol.rl-p {
+	counter-reset: rl-pitem1;
+	list-style-type: none;
+}
+ol.rl-p>li:before {
+	counter-increment: rl-pitem1;
+	content: counter(rl-pitem1, decimal)".";
+}
+ol.ArticlesAndSections ol {
+	counter-reset: ArticlesAndSectionsitem;
+	list-style-type: none;
+}
+ol.ArticlesAndSections ol>li:before {
+	counter-increment: ArticlesAndSectionsitem;
+	content: counter(ArticlesAndSectionsitem, decimal)":";
+}
+ol.ArticlesAndSections {
+	counter-reset: ArticlesAndSectionsitem1;
+	list-style-type: none;
+}
+ol.ArticlesAndSections>li:before {
+	counter-increment: ArticlesAndSectionsitem1;
+	content: "Article "counter(ArticlesAndSectionsitem1, upper-roman)".";
+}
+ol.ArticlesAndSections>li>ol {
+	counter-reset: ArticlesAndSectionsitem2;
+	list-style-type: none;
+}
+ol.ArticlesAndSections>li>ol>li:before {
+	counter-increment: ArticlesAndSectionsitem2;
+	content: "Section "counter(ArticlesAndSectionsitem2, decimal)".";
+}
+ol.ArticlesAndSections>li>ol>li>ol {
+	counter-reset: ArticlesAndSectionsitem3;
+	list-style-type: none;
+}
+ol.ArticlesAndSections>li>ol>li>ol>li:before {
+	counter-increment: ArticlesAndSectionsitem3;
+	content: "&o"counter(ArticlesAndSectionsitem3, lower-alpha)"&c";
+}
+ol.ArticlesAndSections>li>ol>li>ol>li>ol {
+	counter-reset: ArticlesAndSectionsitem4;
+	list-style-type: none;
+}
+ol.ArticlesAndSections>li>ol>li>ol>li>ol>li:before {
+	counter-increment: ArticlesAndSectionsitem4;
+	content: "&o"counter(ArticlesAndSectionsitem4, decimal)"&c";
+}
+ol.ArticlesAndSections>li>ol>li>ol>li>ol>li>ol {
+	counter-reset: ArticlesAndSectionsitem5;
+	list-style-type: none;
+}
+ol.ArticlesAndSections>li>ol>li>ol>li>ol>li>ol>li:before {
+	counter-increment: ArticlesAndSectionsitem5;
+	content: counter(ArticlesAndSectionsitem5, decimal)"&c";
+}
+ol.ArticlesAndSections>li>ol>li>ol>li>ol>li>ol>li>ol {
+	counter-reset: ArticlesAndSectionsitem6;
+	list-style-type: none;
+}
+ol.ArticlesAndSections>li>ol>li>ol>li>ol>li>ol>li>ol>li:before {
+	counter-increment: ArticlesAndSectionsitem6;
+	content: counter(ArticlesAndSectionsitem6, lower-alpha)"&c";
+}
+ol.ArticlesAndSections>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol {
+	counter-reset: ArticlesAndSectionsitem7;
+	list-style-type: none;
+}
+ol.ArticlesAndSections>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol>li:before {
+	counter-increment: ArticlesAndSectionsitem7;
+	content: counter(ArticlesAndSectionsitem7, lower-roman)"&c";
+}
+ol.ArticlesAndSections>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol {
+	counter-reset: ArticlesAndSectionsitem8;
+	list-style-type: none;
+}
+ol.ArticlesAndSections>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol>li:before {
+	counter-increment: ArticlesAndSectionsitem8;
+	content: counter(ArticlesAndSectionsitem8, lower-alpha)":";
+}
+ol.ArticlesAndSections>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol {
+	counter-reset: ArticlesAndSectionsitem9;
+	list-style-type: none;
+}
+ol.ArticlesAndSections>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol>li:before {
+	counter-increment: ArticlesAndSectionsitem9;
+	content: counter(ArticlesAndSectionsitem9, lower-roman)":";
+}
+ol.DescriptionSteps ol {
+	counter-reset: DescriptionStepsitem;
+	list-style-type: none;
+}
+ol.DescriptionSteps ol>li:before {
+	counter-increment: DescriptionStepsitem;
+	content: counter(DescriptionStepsitem, decimal)":";
+}
+ol.DescriptionSteps {
+	counter-reset: DescriptionStepsitem1;
+	list-style-type: none;
+}
+ol.DescriptionSteps>li:before {
+	counter-increment: DescriptionStepsitem1;
+	content: "Description:";
+}
+ol.DescriptionSteps>li>ol {
+	counter-reset: DescriptionStepsitem2;
+	list-style-type: none;
+}
+ol.DescriptionSteps>li>ol>li:before {
+	counter-increment: DescriptionStepsitem2;
+	content: "Step "counter(DescriptionStepsitem2, decimal)":";
+}
+ol.DescriptionSteps>li>ol>li>ol {
+	counter-reset: DescriptionStepsitem3;
+	list-style-type: none;
+}
+ol.DescriptionSteps>li>ol>li>ol>li:before {
+	counter-increment: DescriptionStepsitem3;
+	content: "Note "counter(DescriptionStepsitem3, lower-alpha)":";
+}
+ol.DescriptionSteps>li>ol>li>ol>li>ol {
+	counter-reset: DescriptionStepsitem4;
+	list-style-type: none;
+}
+ol.DescriptionSteps>li>ol>li>ol>li>ol>li:before {
+	counter-increment: DescriptionStepsitem4;
+	content: "Substep "counter(DescriptionStepsitem4, decimal)":";
+}
+ol.DescriptionSteps>li>ol>li>ol>li>ol>li>ol {
+	counter-reset: DescriptionStepsitem5;
+	list-style-type: none;
+}
+ol.DescriptionSteps>li>ol>li>ol>li>ol>li>ol>li:before {
+	counter-increment: DescriptionStepsitem5;
+	content: "Note "counter(DescriptionStepsitem5, decimal)":";
+}
+ol.BasicNumber ol {
+	counter-reset: BasicNumberitem;
+	list-style-type: none;
+}
+ol.BasicNumber ol>li:before {
+	counter-increment: BasicNumberitem;
+	content: counter(BasicNumberitem, decimal)":";
+}
+ol.BasicNumber {
+	counter-reset: BasicNumberitem1;
+	list-style-type: none;
+}
+ol.BasicNumber>li:before {
+	counter-increment: BasicNumberitem1;
+	content: counter(BasicNumberitem1, decimal)"&c";
+}
+ol.BasicNumber>li>ol {
+	counter-reset: BasicNumberitem2;
+	list-style-type: none;
+}
+ol.BasicNumber>li>ol>li:before {
+	counter-increment: BasicNumberitem2;
+	content: counter(BasicNumberitem2, lower-alpha)"&c";
+}
+ol.BasicNumber>li>ol>li>ol {
+	counter-reset: BasicNumberitem3;
+	list-style-type: none;
+}
+ol.BasicNumber>li>ol>li>ol>li:before {
+	counter-increment: BasicNumberitem3;
+	content: counter(BasicNumberitem3, lower-roman)"&c";
+}
+ol.BasicNumber>li>ol>li>ol>li>ol {
+	counter-reset: BasicNumberitem4;
+	list-style-type: none;
+}
+ol.BasicNumber>li>ol>li>ol>li>ol>li:before {
+	counter-increment: BasicNumberitem4;
+	content: "&o"counter(BasicNumberitem4, decimal)"&c";
+}
+ol.BasicNumber>li>ol>li>ol>li>ol>li>ol {
+	counter-reset: BasicNumberitem5;
+	list-style-type: none;
+}
+ol.BasicNumber>li>ol>li>ol>li>ol>li>ol>li:before {
+	counter-increment: BasicNumberitem5;
+	content: "&o"counter(BasicNumberitem5, decimal)"&c";
+}
+ol.BasicNumber>li>ol>li>ol>li>ol>li>ol>li>ol {
+	counter-reset: BasicNumberitem6;
+	list-style-type: none;
+}
+ol.BasicNumber>li>ol>li>ol>li>ol>li>ol>li>ol>li:before {
+	counter-increment: BasicNumberitem6;
+	content: "&o"counter(BasicNumberitem6, lower-roman)"&c";
+}
+ol.BasicNumber>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol {
+	counter-reset: BasicNumberitem7;
+	list-style-type: none;
+}
+ol.BasicNumber>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol>li:before {
+	counter-increment: BasicNumberitem7;
+	content: counter(BasicNumberitem7, decimal)":";
+}
+ol.BasicNumber>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol {
+	counter-reset: BasicNumberitem8;
+	list-style-type: none;
+}
+ol.BasicNumber>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol>li:before {
+	counter-increment: BasicNumberitem8;
+	content: counter(BasicNumberitem8, lower-alpha)":";
+}
+ol.BasicNumber>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol {
+	counter-reset: BasicNumberitem9;
+	list-style-type: none;
+}
+ol.BasicNumber>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol>li>ol>li:before {
+	counter-increment: BasicNumberitem9;
+	content: counter(BasicNumberitem9, lower-roman)":";
+}
+h1.rl-h1::before {
+	counter-increment: rl-h1item1;
+	content: counter(rl-h1item1, upper-alpha)".";
+}
+p.rl-p::before {
+	counter-increment: rl-pitem1;
+	content: counter(rl-pitem1, decimal)".";
+}
+a.expandspot::before {
+	vertical-align: middle;
+	margin-right: 0.25rem;
+	content: url(../images/red_circle_3.png);
+}
+a.expandspot.pressed::before {
+	vertical-align: middle;
+	margin-right: 0.25rem;
+	content: url(../images/Red_Circle_E.png);
+}
+a.dropspot::before {
+	vertical-align: middle;
+	margin-right: 0.25rem;
+	content: url(../images/nav_right_red.png);
+}
+a.dropspot.pressed::before {
+	vertical-align: middle;
+	margin-right: 0.25rem;
+	content: url(../images/red_circle_3.png);
+}

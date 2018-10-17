@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>        
+
+<glossgroup id="features">          
+<title>Glossary Definitions</title>        
+<glossentry id="term">
+<glossterm>term</glossterm>
+<glossdef>this is glossary definrion</glossdef></glossentry></glossgroup>
